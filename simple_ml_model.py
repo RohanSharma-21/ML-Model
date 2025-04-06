@@ -11,14 +11,13 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.model_selection import train_test_split
 
 data = pd.read_csv(r"/content/sample_data/california_housing_test.csv")
 
 data
 
 data.info()
-
-from sklearn.model_selection import train_test_split
 
 x = data.drop(['median_house_value'], axis = 1)
 y = data['median_house_value']
