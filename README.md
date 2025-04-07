@@ -1,4 +1,4 @@
-# California Housing Price Prediction
+# My California Housing Price Prediction Model
 
 This is a linear regression model to predict house prices in California based on the (features) of the data set below.
 
